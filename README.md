@@ -4,7 +4,8 @@ This C code aims at simulating cache behvior. It takes a valgrind memory trace a
 ## Use
 The simulator takes the following command-line arguments:
 
-Usage: ./csim [-hv] -s <s> -E <E> -b <b> -t <tracefile>
+Usage: 
+'./csim [-hv] -s <s> -E <E> -b <b> -t <tracefile>'
 -h: Optional help flag that prints usage info
 -v: Optional verbose flag that displays trace info
 -s <s>: Number of set index bits (S = 2s is the number of sets)
